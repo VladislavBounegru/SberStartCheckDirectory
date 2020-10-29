@@ -9,10 +9,9 @@ import java.nio.file.Path;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class Controller {
+public class Controller implements Runnable {
     private final Path path;
     private final Handler fp;
-    private static final ExecutorService DELETE_SERVICE = Executors.newSingleThreadExecutor();
 
 
     public Controller(Path path) {
@@ -34,16 +33,9 @@ public class Controller {
         return handler;
     }
 
-    public void action() {
-        DELETE_SERVICE.submit(() -> {
-            fp.action();
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        });
+    @Override
+    public void run() {
+        fp.action();
+
     }
-
-
 }

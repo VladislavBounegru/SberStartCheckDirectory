@@ -1,6 +1,7 @@
 package check_directory_api.Watcher;
 
 import check_directory_api.Controller.Controller;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.*;
@@ -44,7 +45,9 @@ public class Watcher {
                         Path newFilePath = Paths.get(path.toString() + "/" + event.context());
                         log(newFilePath);
                         controller = new Controller(newFilePath);
-                        controller.action();
+                        Thread thread = new Thread(controller);
+                        thread.setDaemon(true);
+                        thread.start();
                     });
                 }
                 assert watchKey != null;

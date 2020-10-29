@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.nio.file.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.LogManager;
@@ -31,11 +33,15 @@ public class Watcher {
         this.path = path;
     }
 
-    public void checkDirectory() throws IOException {
+    public void checkDirectory() {
+        ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
         try {
             WatchService watchService = FileSystems.getDefault().newWatchService();
             path.register(watchService,
-                    StandardWatchEventKinds.ENTRY_CREATE);
+                    StandardWatchEventKinds.ENTRY_CREATE,
+                    StandardWatchEventKinds.ENTRY_MODIFY,
+                    StandardWatchEventKinds.ENTRY_DELETE
+            );
             WatchKey watchKey;
 
             while (true) {
@@ -43,19 +49,26 @@ public class Watcher {
                 if (watchKey != null) {
                     watchKey.pollEvents().forEach(event -> {
                         Path newFilePath = Paths.get(path.toString() + "/" + event.context());
-                        log(newFilePath);
-                        controller = new Controller(newFilePath);
-                        Thread thread = new Thread(controller);
-                        thread.setDaemon(true);
-                        thread.start();
+                        if (event.kind() == StandardWatchEventKinds.OVERFLOW)
+                        {
+                            LOGGER.log(Level.WARNING,"File listener recieved an overflow event.  You should probably check into this");
+                            return;
+                        }
+                        if (!event.context().toString().equals(".DS_Store")
+                                && event.kind() != StandardWatchEventKinds.ENTRY_DELETE) {
+                            log(newFilePath);
+                            controller = new Controller(newFilePath);
+                            executorService.submit(controller);
+                        }
                     });
                 }
                 assert watchKey != null;
                 watchKey.reset();
             }
-        } catch (InterruptedException e) {
+        } catch (InterruptedException | IOException e) {
             e.printStackTrace();
         }
+        executorService.shutdown();
     }
 
     public void log(Path path) {

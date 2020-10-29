@@ -6,8 +6,6 @@ import check_directory_api.Hander.JsonFileHandler;
 import check_directory_api.Hander.XmlFileHandler;
 
 import java.nio.file.Path;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class Controller implements Runnable {
     private final Path path;

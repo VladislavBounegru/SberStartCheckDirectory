@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T12:37:58</date>
+  <millis>1603913878202</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>WARNING</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_MODIFY. File affected: input.txt.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T12:43:38</date>
+  <millis>1603914218088</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: deploy.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:43:38</date>
+  <millis>1603914218101</millis>
+  <sequence>1</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: deploy_nexus.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:43:38</date>
+  <millis>1603914218102</millis>
+  <sequence>2</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: undeploy.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:43:48</date>
+  <millis>1603914228087</millis>
+  <sequence>3</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: deploy_nexus.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:43:48</date>
+  <millis>1603914228088</millis>
+  <sequence>4</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: undeploy.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:43:48</date>
+  <millis>1603914228089</millis>
+  <sequence>5</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: deploy.yml.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T12:48:08</date>
+  <millis>1603914488262</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: deploy_nexus.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:48:08</date>
+  <millis>1603914488274</millis>
+  <sequence>1</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: undeploy.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:48:08</date>
+  <millis>1603914488275</millis>
+  <sequence>2</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: deploy.yml.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T12:49:55</date>
+  <millis>1603914595041</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: deploy_nexus.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:49:55</date>
+  <millis>1603914595053</millis>
+  <sequence>1</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: undeploy.yml.</message>
+</record>
+<record>
+  <date>2020-10-28T12:49:55</date>
+  <millis>1603914595054</millis>
+  <sequence>2</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: deploy.yml.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T13:25:13</date>
+  <millis>1603916713965</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_MODIFY. File affected: input.txt.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T13:32:30</date>
+  <millis>1603917150431</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_MODIFY. File affected: input.txt.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T13:33:14</date>
+  <millis>1603917194121</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_MODIFY. File affected: input.txt.</message>
+</record>
+<record>
+  <date>2020-10-28T13:46:44</date>
+  <millis>1603918004105</millis>
+  <sequence>1</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_MODIFY. File affected: input.txt.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T13:53:27</date>
+  <millis>1603918407973</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_DELETE. File affected: test.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T14:01:13</date>
+  <millis>1603918873330</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: asd.</message>
+</record>
+<record>
+  <date>2020-10-28T14:01:33</date>
+  <millis>1603918893326</millis>
+  <sequence>1</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: asd.</message>
+</record>
+<record>
+  <date>2020-10-28T14:02:03</date>
+  <millis>1603918923322</millis>
+  <sequence>2</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: asd.</message>
+</record>
+<record>
+  <date>2020-10-28T14:03:03</date>
+  <millis>1603918983325</millis>
+  <sequence>3</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: asd.</message>
+</record>
+<record>
+  <date>2020-10-28T14:03:13</date>
+  <millis>1603918993327</millis>
+  <sequence>4</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: bj.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T14:09:39</date>
+  <millis>1603919379892</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: aDa.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-28T14:10:44</date>
+  <millis>1603919444173</millis>
+  <sequence>0</sequence>
+  <logger>check_directory_api.Watcher.Watcher</logger>
+  <level>INFO</level>
+  <class>check_directory_api.Watcher.Watcher</class>
+  <method>checkDirectory</method>
+  <thread>1</thread>
+  <message>Event kind:ENTRY_CREATE. File affected: asd.</message>
+</record>
+</log>
+окт 28, 2020 2:28:37 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: Event kind:ENTRY_CREATE. File affected: asf.s.
+окт 28, 2020 2:29:46 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: Event kind:ENTRY_CREATE. File affected: j.
+окт 28, 2020 3:12:50 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "asd" added at 28102020_151250. File affected: asd.
+окт 28, 2020 3:13:22 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "asd.json" added at 28102020_151322. File affected: asd.json.
+окт 28, 2020 3:14:39 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "dfg.xml" added at 28102020_151439. File affected: dfg.xml.
+окт 28, 2020 3:18:48 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "asd.json" added at 28102020_151848. File affected: asd.json.
+окт 28, 2020 3:19:24 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "hjhj" added at 28102020_151924. File affected: hjhj.
+окт 28, 2020 3:21:58 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "asdasf" added at 28.10.2020 15:21:58. File affected: asdasf.
+окт 28, 2020 3:26:19 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "hhhj.xml" added at 28.10.2020 15:26:19. File affected: hhhj.xml.
+окт 28, 2020 3:33:11 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Check.png" added at 28.10.2020 15:33:11. File affected: Check.png.
+окт 28, 2020 3:33:46 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Check.png" added at 28.10.2020 15:33:46. File affected: Check.png.
+окт 28, 2020 3:50:18 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Check.png" added at 28.10.2020 15:50:18. File affected: Check.png.
+окт 28, 2020 4:04:18 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:04:18. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:04:57 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:04:57. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:05:44 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:05:44. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:34:56 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:34:56. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:41:00 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:41:00. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:41:29 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:41:29. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:42:29 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:42:29. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:43:28 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:43:28. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:44:45 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:44:45. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:45:54 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:45:54. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:47:31 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:47:31. File affected: Watcher — копия 119.log.
+окт 28, 2020 4:49:47 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 125 16.49.42.log" added at 28.10.2020 16:49:47. File affected: Watcher — копия 125 16.49.42.log.
+окт 28, 2020 4:51:15 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "W.log" added at 28.10.2020 16:51:15. File affected: W.log.
+окт 28, 2020 4:56:53 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "W — копия 9.log" added at 28.10.2020 16:56:53. File affected: W — копия 9.log.
+окт 28, 2020 4:58:30 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 16:58:30. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:00:15 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:00:15. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:01:32 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:01:32. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:03:15 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:03:15. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:14:59 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:14:59. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:16:44 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:16:44. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:18:43 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:18:43. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:23:10 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:23:10. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:24:44 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:24:44. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:25:37 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:25:37. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:26:50 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:26:50. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:33:10 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:33:10. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:35:51 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:35:51. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:36:43 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:36:43. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:43:08 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:43:08. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:47:19 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:47:19. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:47:51 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:47:51. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:48:51 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:48:51. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:49:34 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "Watcher — копия 119.log" added at 28.10.2020 17:49:34. File affected: Watcher — копия 119.log.
+окт 28, 2020 5:59:23 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "hhhj — копия.xml" added at 28.10.2020 17:59:23. File affected: hhhj — копия.xml.
+окт 28, 2020 6:14:46 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "hhhj — копия 4.xml" added at 28.10.2020 18:14:46. File affected: hhhj — копия 4.xml.
+окт 28, 2020 6:16:01 PM check_directory_api.Watcher.Watcher checkDirectory
+INFO: File "hhhj — копия 2.xml" added at 28.10.2020 18:16:01. File affected: hhhj — копия 2.xml.
+окт 29, 2020 10:31:29 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 8.txt file ad - 29.10.2020 10:31:29

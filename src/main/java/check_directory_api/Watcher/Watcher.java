@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 public class Watcher {
     Path path;
     Controller controller;
+    ExecutorService executorService;
     private static Logger LOGGER;
 
     static {
@@ -31,10 +32,10 @@ public class Watcher {
 
     public Watcher(Path path) {
         this.path = path;
+        executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
     }
 
     public void checkDirectory() {
-        ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
         try {
             WatchService watchService = FileSystems.getDefault().newWatchService();
             path.register(watchService,
@@ -42,33 +43,39 @@ public class Watcher {
                     StandardWatchEventKinds.ENTRY_MODIFY,
                     StandardWatchEventKinds.ENTRY_DELETE
             );
-            WatchKey watchKey;
 
             while (true) {
-                watchKey = watchService.poll(10, TimeUnit.MINUTES);
-                if (watchKey != null) {
-                    watchKey.pollEvents().forEach(event -> {
-                        Path newFilePath = Paths.get(path.toString() + "/" + event.context());
-                        if (event.kind() == StandardWatchEventKinds.OVERFLOW)
-                        {
-                            LOGGER.log(Level.WARNING,"File listener recieved an overflow event.  You should probably check into this");
-                            return;
-                        }
-                        if (!event.context().toString().equals(".DS_Store")
-                                && event.kind() != StandardWatchEventKinds.ENTRY_DELETE) {
-                            log(newFilePath);
-                            controller = new Controller(newFilePath);
-                            executorService.submit(controller);
-                        }
-                    });
-                }
-                assert watchKey != null;
-                watchKey.reset();
+                watchService(watchService, null, LOGGER);
             }
-        } catch (InterruptedException | IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
         executorService.shutdown();
+    }
+
+    public void watchService(WatchService watchService, WatchKey watchKey,Logger logger) {
+        try {
+            watchKey = watchService.poll(10, TimeUnit.MINUTES);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        if (watchKey != null) {
+            watchKey.pollEvents().forEach(event -> {
+                Path newFilePath = Paths.get(path.toString() + "/" + event.context());
+                if (event.kind() == StandardWatchEventKinds.OVERFLOW) {
+                    logger.log(Level.WARNING, "File listener recieved an overflow event.  You should probably check into this");
+                    return;
+                }
+                if (!event.context().toString().equals(".DS_Store")
+                        && event.kind() != StandardWatchEventKinds.ENTRY_DELETE) {
+                    log(newFilePath);
+                    controller = new Controller(newFilePath);
+                    executorService.submit(controller);
+                }
+            });
+        }
+        assert watchKey != null;
+        watchKey.reset();
     }
 
     public void log(Path path) {

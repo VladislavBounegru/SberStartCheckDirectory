@@ -12254,3 +12254,291 @@ INFO: Added test.json file. Lines at file - 0. Start time - 29.10.2020 17:04:42,
 INFO: Added test.json file. Lines at file - 0. Start time - 29.10.2020 17:04:59, total processing time - 63 milliseconds
 окт 29, 2020 5:05:18 PM check_directory_api.Hander.JsonFileHandler action
 INFO: Added test.json file. Lines at file - 0. Start time - 29.10.2020 17:05:18, total processing time - 63 milliseconds
+окт 30, 2020 9:29:11 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 724.txt file ad - 30.10.2020 09:29:11
+окт 30, 2020 9:29:11 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 730.txt file ad - 30.10.2020 09:29:11
+окт 30, 2020 9:29:11 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 724.txt deleted. Start time - 30.10.2020 09:29:11, total processing time - 0 milliseconds
+окт 30, 2020 9:29:11 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 723.txt file ad - 30.10.2020 09:29:11
+окт 30, 2020 9:29:11 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 730.txt deleted. Start time - 30.10.2020 09:29:11, total processing time - 0 milliseconds
+окт 30, 2020 9:29:11 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 723.txt deleted. Start time - 30.10.2020 09:29:11, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 707.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 713.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 707.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 1 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 673.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 713.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 698.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 673.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 699.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 698.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 672.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 699.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 712.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 672.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 706.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 712.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 710.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 706.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 704.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 710.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 705.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 704.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 711.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 705.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 0 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 715.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 711.txt deleted. Start time - 30.10.2020 09:39:32, total processing time - 1 milliseconds
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 701.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 729.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 675.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 674.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 728.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 700.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 714.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 702.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 716.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 676.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 689.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 688.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 677.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 717.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 703.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 726.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 691.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 685.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 684.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 690.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 727.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 719.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 725.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 679.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 686.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 692.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 693.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 687.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 678.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 724.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 730.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 718.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 720.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 708.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 683.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 697.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 696.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 682.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 709.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 721.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 723.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 694.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 680.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 681.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 695.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:32 AM check_directory_api.Watcher.Watcher log
+INFO: Added input — копия 722.txt file ad - 30.10.2020 09:39:32
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 701.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 0 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 729.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 0 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 715.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 0 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 675.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 1 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 728.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 1 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 700.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 1 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 716.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 0 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 702.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 0 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 714.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 0 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 674.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 1 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 676.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 0 milliseconds
+окт 30, 2020 9:39:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 689.txt deleted. Start time - 30.10.2020 09:39:33, total processing time - 0 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 688.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 1 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 703.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 1 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 717.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 1 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 677.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 1 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 684.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 0 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 719.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 0 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 727.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 0 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 690.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 0 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 725.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 0 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 726.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 0 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 685.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 0 milliseconds
+окт 30, 2020 9:39:34 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 691.txt deleted. Start time - 30.10.2020 09:39:34, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 686.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 693.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 692.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 679.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 687.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 720.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 724.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 718.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 678.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 730.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 708.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:35 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 683.txt deleted. Start time - 30.10.2020 09:39:35, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 697.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 696.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 682.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 709.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 721.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 680.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 723.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 694.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 681.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 695.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:39:36 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory input — копия 722.txt deleted. Start time - 30.10.2020 09:39:36, total processing time - 0 milliseconds
+окт 30, 2020 9:43:04 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory test.txt deleted. Start time - 30.10.2020 09:43:04, total processing time - 10 milliseconds
+окт 30, 2020 10:04:12 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:04:12
+окт 30, 2020 10:04:39 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:04:39
+окт 30, 2020 10:04:58 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:04:58
+окт 30, 2020 10:05:43 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:05:43
+окт 30, 2020 10:05:43 AM check_directory_api.Hander.JsonFileHandler action
+INFO: Added test.json file. Lines at file - 0. Start time - 30.10.2020 10:05:43, total processing time - 8 milliseconds
+окт 30, 2020 10:29:33 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:29:33
+окт 30, 2020 10:29:33 AM check_directory_api.Hander.JsonFileHandler action
+INFO: Added test.json file. Lines at file - 0. Start time - 30.10.2020 10:29:33, total processing time - 10 milliseconds
+окт 30, 2020 10:29:43 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.test file ad - 30.10.2020 10:29:43
+окт 30, 2020 10:29:43 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory test.test deleted. Start time - 30.10.2020 10:29:43, total processing time - 1 milliseconds
+окт 30, 2020 10:31:07 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.test file ad - 30.10.2020 10:31:07
+окт 30, 2020 10:31:07 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory test.test deleted. Start time - 30.10.2020 10:31:07, total processing time - 1 milliseconds
+окт 30, 2020 10:31:41 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:31:41
+окт 30, 2020 10:31:41 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.test file ad - 30.10.2020 10:31:41
+окт 30, 2020 10:31:41 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory test.test deleted. Start time - 30.10.2020 10:31:41, total processing time - 1 milliseconds
+окт 30, 2020 10:31:46 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:31:46
+окт 30, 2020 10:33:08 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:33:08
+окт 30, 2020 10:33:33 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.json file ad - 30.10.2020 10:33:33
+окт 30, 2020 10:33:33 AM check_directory_api.Watcher.Watcher log
+INFO: Added test.test file ad - 30.10.2020 10:33:33
+окт 30, 2020 10:33:33 AM check_directory_api.Hander.DeleteFileHandler action
+INFO: File or directory test.test deleted. Start time - 30.10.2020 10:33:33, total processing time - 2 milliseconds

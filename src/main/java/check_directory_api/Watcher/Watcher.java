@@ -25,8 +25,8 @@ public class Watcher {
         try (FileInputStream ins = new FileInputStream("Log.config")) {
             LogManager.getLogManager().readConfiguration(ins);
             LOGGER = Logger.getLogger(Watcher.class.getName());
-        } catch (Exception ignore) {
-            ignore.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
